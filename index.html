@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/selectric.css">
+    <link rel="stylesheet" href="./css/style__dashan.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="dashlk__title">Управление категориями</div>
+    <div class="dashlk__line">
+        <div class="line-dashlk__list">
+            <div class="line-dashlk__item">
+                <div class="line-dashlk__main">
+                    <p class="line-dashlk__label">Всего категорий</p>
+                    <p class="line-dashlk__total">10 189</p>
+                </div>
+            </div>
+            <div class="line-dashlk__item">
+                <div class="line-dashlk__main">
+                    <p class="line-dashlk__label">Категорий опубликовано</p>
+                    <p class="line-dashlk__total">10</p>
+                </div>
+            </div>
+            <div class="line-dashlk__item">
+                <div class="line-dashlk__main">
+                    <p class="line-dashlk__label">Категорий скрыто</p>
+                    <p class="line-dashlk__total">189</p>
+                </div>
+            </div>
+            <div class="line-dashlk__item">
+                <div class="line-dashlk__main">
+                    <p class="line-dashlk__label">Посленяя генерация</p>
+                    <p class="line-dashlk__total">11.11.2011</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="objects__filters">
+        <div class="objects__filter">
+            <div class="filter-objects__row">
+                <div class="filter-objects__select razdel">
+                    <span class="title">Раздел</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Раздел</option>
+                        <option value="1">Город</option>
+                        <option value="2">Загород</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select type">
+                    <span class="title">Тип объекта</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Тип объекта</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select raion">
+                    <span class="title">Район</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Район</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select category">
+                    <span class="title">Категории</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Категории</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select params">
+                    <span class="title">Параметры</span>
+                    <span class="amount">1</span>
+                    <select multiple>
+                        <option value="placeholder" class="placeholder">Параметры</option>
+                        <option value="1">Vesco Realty</option>
+                        <option value="2">Vesco Realty</option>
+                        <option value="3">Vesco Realty</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select auto">
+                    <span class="title">Автоматические Title / Desc / H1</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Категории</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select slovari">
+                    <span class="title">Словари</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Словари</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+                <div class="filter-objects__select date">
+                    <span class="title">Добавлены</span>
+                    <select>
+                        <option value="placeholder" class="placeholder">Добавлены</option>
+                        <option value="1">Квартира</option>
+                        <option value="2">Апартаменты</option>
+                        <option value="3">Пентхаус</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-objects__row">
+                <div class="filter-objects__search">
+                    <span class="icon"></span>
+                    <input type="text" placeholder="Введите параметр, ID, адрес или ЖК">
+                </div>
+                <div class="filter-objects__checkblock">
+                    <input type="checkbox" name="exclusive">
+                    <span>Опубликованные</span>
+                </div>
+                <button class="filter-objects__btn">
+                    Показать
+                    <span class="amount">45</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="dashlk__title">Всего найдено 2580 категорий (В них 1 450 Объектов)</div>
+    <div class="test">
+        <div class="edition-objects__checkbox">
+            <input type="checkbox" checked>
+            <span>SEO режим</span>
+        </div>
+        <div class="edition-objects__checkbox">
+            <input type="checkbox">
+            <span>Обычный режим</span>
+        </div>
+        <div class="perpageview">
+            <select>
+                <option value="1">Выводить по 20</option>
+                <option value="2">Выводить по 50</option>
+                <option value="2">Выводить по 1000</option>
+            </select>
+        </div>
+    </div>
+    <div class="objects__list">
+        <div class="list-objects__header">
+            <div class="list-objects__item city">
+                Город
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item category">
+                Категория
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item url">
+                Url
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item title">
+                Title
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item H1">
+                H1
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item desc">
+                Descripton
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item text">
+                Текст
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item slovar">
+                Словари
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item fast">
+                Быстрый
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item objects">
+                Объектов
+                <div class="sort"></div>
+            </div>
+            <div class="list-objects__item status">
+                Статус
+                <div class="sort active"></div>
+            </div>
+            <div class="list-objects__item edit">
+            </div>
+        </div>
+        <div class="list-objects__object">
+            <div class="list-objects__main">
+                <div class="list-objects__item city">
+                    Москва
+                </div>
+                <div class="list-objects__item category">
+                    Квартиры в центре Москвы
+                </div>
+                <div class="list-objects__item url">
+                    moscow/flat/center
+                </div>
+                <div class="list-objects__item title">
+                    Title
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item H1">
+                    H1
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item desc">
+                    Descripton
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item text">
+                    Текст
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item slovar">
+                    Словари
+                </div>
+                <div class="list-objects__item fast">
+                    6 (10)
+                </div>
+                <div class="list-objects__item objects">
+                    1500 (2000)
+                </div>
+                <div class="list-objects__item status">
+                    Активен
+                </div>
+                <div class="list-objects__item edit">
+                    <div class="list-objects__menu">
+                        <span class="icon"></span>
+                        <div class="edit-form">
+                            <div class="edit-form-cadPrice">
+                              <div class="edit-form-input">
+                                <input type="text" placeholder="1" />
+                                <label>
+                                    Цена лота
+                                    <span class="form-req">*</span>
+                                </label>
+                              </div>
+                              <div class="edit-form-radios">
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="RUB" /><label>₽</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="USD" checked="checked" /><label>$</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="EUR" /><label>€</label></div>
+                              </div>
+                            </div>
+                            <p class="edit-form-title">Статус лота</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Актуален" />
+                                <span class="edit-form-span">Актуален</span>
+                            </label>
+                            <label class="edit-form-radio">
+                                <input class="edit-form-input" type="radio" name="8228_field_p_status" value="Продан" /><span class="edit-form-span">Продан</span>
+                                <div class="sell">
+                                    <div class="sell-inputs">
+                                        <p class="sell-title">Дата продажи:</p>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">День</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">День</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">Месяц и год</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                    <option value="2033_12">Декабрь 2033</option>
+                                                    <option value="2033_11">Ноябрь 2033</option>
+                                                    <option value="2033_10">Октябрь 2033</option>
+                                                    <option value="2033_9">Сентябрь 2033</option>
+                                                    <option value="2033_8">Август 2033</option>
+                                                    <option value="2033_7">Июль 2033</option>
+                                                    <option value="2033_6">Июнь 2033</option>
+                                                    <option value="2033_5">Май 2033</option>
+                                                    <option value="2033_4">Апрель 2033</option>
+                                                    <option value="2033_3">Март 2033</option>
+                                                    <option value="2033_2">Февраль 2033</option>
+                                                    <option value="2033_1">Январь 2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sell-cadPrice">
+                                    <div class="sell-input">
+                                        <input type="text" placeholder="1" />
+                                        <label class="active">Цена продажи</label>
+                                    </div>
+                                    <div class="sell-radios">
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="RUB" /><label>₽</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="USD" /><label>$</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="EUR" /><label>€</label></div>
+                                    </div>
+                                </div>
+                                <div class="sell-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">Кто продал</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">Кто продал</option>
+                                            <option value="2033_12">Частный брокер</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              </div>
+                            </label>
+                            <label class="edit-form-radio"
+                              ><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Снят с продажи" /><span class="edit-form-span">Снят с продажи</span>
+                              <div class="stop">
+                                <p class="stop-title">Продажа приостановлена до:</p>
+                                <div class="stop-inputs">
+                                  <div class="stop-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">День</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">День</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                  <div class="stop-input">
+                                    <div class="select-wrapper">
+                                        <div class="filter-objects__select">
+                                            <span class="title">Месяц и год</span>
+                                            <select>
+                                                <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                <option value="2033_12">Декабрь 2033</option>
+                                                <option value="2033_11">Ноябрь 2033</option>
+                                                <option value="2033_10">Октябрь 2033</option>
+                                                <option value="2033_9">Сентябрь 2033</option>
+                                                <option value="2033_8">Август 2033</option>
+                                                <option value="2033_7">Июль 2033</option>
+                                                <option value="2033_6">Июнь 2033</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Не актуален (без указания причины)" /><span class="edit-form-span">Не актуален</span></label>
+                            <hr class="edit-form-devider" />
+                            <p class="edit-form-title">Статус проверки</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Черновик" checked="checked" /><span class="edit-form-span">Черновик</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации" /><span class="edit-form-span">На модерации</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Проверен" /><span class="edit-form-span">Проверен</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Обработан" /><span class="edit-form-span">Обработан</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На исправлении" /><span class="edit-form-span">На исправлении</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации (повторной)" /><span class="edit-form-span">На модерации (повторной)</span></label>
+                            <ul class="errors"></ul>
+                            <button class="edit-form-save">Сохранить изменения</button>
+                            <a class="edit-form-edit" target="_blank" href="/cabinet/object/edit/8228">Редактировать лот</a>
+                            <button class="edit-form-black">Скопировать в черновики</button>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="list-objects__main">
+                <div class="list-objects__item city">
+                    Москва
+                </div>
+                <div class="list-objects__item category">
+                    Квартиры в центре Москвы
+                </div>
+                <div class="list-objects__item url">
+                    moscow/flat/center
+                </div>
+                <div class="list-objects__item title">
+                    Title
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item H1">
+                    H1
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item desc">
+                    Descripton
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item text">
+                    Текст
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item slovar">
+                    Словари
+                </div>
+                <div class="list-objects__item fast">
+                    6 (10)
+                </div>
+                <div class="list-objects__item objects">
+                    1500 (2000)
+                </div>
+                <div class="list-objects__item status">
+                    Активен
+                </div>
+                <div class="list-objects__item edit">
+                    <div class="list-objects__menu">
+                        <span class="icon"></span>
+                        <div class="edit-form">
+                            <div class="edit-form-cadPrice">
+                              <div class="edit-form-input">
+                                <input type="text" placeholder="1" />
+                                <label>
+                                    Цена лота
+                                    <span class="form-req">*</span>
+                                </label>
+                              </div>
+                              <div class="edit-form-radios">
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="RUB" /><label>₽</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="USD" checked="checked" /><label>$</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="EUR" /><label>€</label></div>
+                              </div>
+                            </div>
+                            <p class="edit-form-title">Статус лота</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Актуален" />
+                                <span class="edit-form-span">Актуален</span>
+                            </label>
+                            <label class="edit-form-radio">
+                                <input class="edit-form-input" type="radio" name="8228_field_p_status" value="Продан" /><span class="edit-form-span">Продан</span>
+                                <div class="sell">
+                                    <div class="sell-inputs">
+                                        <p class="sell-title">Дата продажи:</p>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">День</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">День</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">Месяц и год</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                    <option value="2033_12">Декабрь 2033</option>
+                                                    <option value="2033_11">Ноябрь 2033</option>
+                                                    <option value="2033_10">Октябрь 2033</option>
+                                                    <option value="2033_9">Сентябрь 2033</option>
+                                                    <option value="2033_8">Август 2033</option>
+                                                    <option value="2033_7">Июль 2033</option>
+                                                    <option value="2033_6">Июнь 2033</option>
+                                                    <option value="2033_5">Май 2033</option>
+                                                    <option value="2033_4">Апрель 2033</option>
+                                                    <option value="2033_3">Март 2033</option>
+                                                    <option value="2033_2">Февраль 2033</option>
+                                                    <option value="2033_1">Январь 2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sell-cadPrice">
+                                    <div class="sell-input">
+                                        <input type="text" placeholder="1" />
+                                        <label class="active">Цена продажи</label>
+                                    </div>
+                                    <div class="sell-radios">
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="RUB" /><label>₽</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="USD" /><label>$</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="EUR" /><label>€</label></div>
+                                    </div>
+                                </div>
+                                <div class="sell-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">Кто продал</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">Кто продал</option>
+                                            <option value="2033_12">Частный брокер</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              </div>
+                            </label>
+                            <label class="edit-form-radio"
+                              ><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Снят с продажи" /><span class="edit-form-span">Снят с продажи</span>
+                              <div class="stop">
+                                <p class="stop-title">Продажа приостановлена до:</p>
+                                <div class="stop-inputs">
+                                  <div class="stop-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">День</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">День</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                  <div class="stop-input">
+                                    <div class="select-wrapper">
+                                        <div class="filter-objects__select">
+                                            <span class="title">Месяц и год</span>
+                                            <select>
+                                                <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                <option value="2033_12">Декабрь 2033</option>
+                                                <option value="2033_11">Ноябрь 2033</option>
+                                                <option value="2033_10">Октябрь 2033</option>
+                                                <option value="2033_9">Сентябрь 2033</option>
+                                                <option value="2033_8">Август 2033</option>
+                                                <option value="2033_7">Июль 2033</option>
+                                                <option value="2033_6">Июнь 2033</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Не актуален (без указания причины)" /><span class="edit-form-span">Не актуален</span></label>
+                            <hr class="edit-form-devider" />
+                            <p class="edit-form-title">Статус проверки</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Черновик" checked="checked" /><span class="edit-form-span">Черновик</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации" /><span class="edit-form-span">На модерации</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Проверен" /><span class="edit-form-span">Проверен</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Обработан" /><span class="edit-form-span">Обработан</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На исправлении" /><span class="edit-form-span">На исправлении</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации (повторной)" /><span class="edit-form-span">На модерации (повторной)</span></label>
+                            <ul class="errors"></ul>
+                            <button class="edit-form-save">Сохранить изменения</button>
+                            <a class="edit-form-edit" target="_blank" href="/cabinet/object/edit/8228">Редактировать лот</a>
+                            <button class="edit-form-black">Скопировать в черновики</button>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="list-objects__main">
+                <div class="list-objects__item city">
+                    Москва
+                </div>
+                <div class="list-objects__item category">
+                    Квартиры в центре Москвы
+                </div>
+                <div class="list-objects__item url">
+                    moscow/flat/center
+                </div>
+                <div class="list-objects__item title">
+                    Title
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item H1">
+                    H1
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item desc">
+                    Descripton
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item text">
+                    Текст
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item slovar">
+                    Словари
+                </div>
+                <div class="list-objects__item fast">
+                    6 (10)
+                </div>
+                <div class="list-objects__item objects">
+                    1500 (2000)
+                </div>
+                <div class="list-objects__item status">
+                    Активен
+                </div>
+                <div class="list-objects__item edit">
+                    <div class="list-objects__menu">
+                        <span class="icon"></span>
+                        <div class="edit-form">
+                            <div class="edit-form-cadPrice">
+                              <div class="edit-form-input">
+                                <input type="text" placeholder="1" />
+                                <label>
+                                    Цена лота
+                                    <span class="form-req">*</span>
+                                </label>
+                              </div>
+                              <div class="edit-form-radios">
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="RUB" /><label>₽</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="USD" checked="checked" /><label>$</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="EUR" /><label>€</label></div>
+                              </div>
+                            </div>
+                            <p class="edit-form-title">Статус лота</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Актуален" />
+                                <span class="edit-form-span">Актуален</span>
+                            </label>
+                            <label class="edit-form-radio">
+                                <input class="edit-form-input" type="radio" name="8228_field_p_status" value="Продан" /><span class="edit-form-span">Продан</span>
+                                <div class="sell">
+                                    <div class="sell-inputs">
+                                        <p class="sell-title">Дата продажи:</p>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">День</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">День</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">Месяц и год</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                    <option value="2033_12">Декабрь 2033</option>
+                                                    <option value="2033_11">Ноябрь 2033</option>
+                                                    <option value="2033_10">Октябрь 2033</option>
+                                                    <option value="2033_9">Сентябрь 2033</option>
+                                                    <option value="2033_8">Август 2033</option>
+                                                    <option value="2033_7">Июль 2033</option>
+                                                    <option value="2033_6">Июнь 2033</option>
+                                                    <option value="2033_5">Май 2033</option>
+                                                    <option value="2033_4">Апрель 2033</option>
+                                                    <option value="2033_3">Март 2033</option>
+                                                    <option value="2033_2">Февраль 2033</option>
+                                                    <option value="2033_1">Январь 2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sell-cadPrice">
+                                    <div class="sell-input">
+                                        <input type="text" placeholder="1" />
+                                        <label class="active">Цена продажи</label>
+                                    </div>
+                                    <div class="sell-radios">
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="RUB" /><label>₽</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="USD" /><label>$</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="EUR" /><label>€</label></div>
+                                    </div>
+                                </div>
+                                <div class="sell-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">Кто продал</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">Кто продал</option>
+                                            <option value="2033_12">Частный брокер</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              </div>
+                            </label>
+                            <label class="edit-form-radio"
+                              ><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Снят с продажи" /><span class="edit-form-span">Снят с продажи</span>
+                              <div class="stop">
+                                <p class="stop-title">Продажа приостановлена до:</p>
+                                <div class="stop-inputs">
+                                  <div class="stop-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">День</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">День</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                  <div class="stop-input">
+                                    <div class="select-wrapper">
+                                        <div class="filter-objects__select">
+                                            <span class="title">Месяц и год</span>
+                                            <select>
+                                                <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                <option value="2033_12">Декабрь 2033</option>
+                                                <option value="2033_11">Ноябрь 2033</option>
+                                                <option value="2033_10">Октябрь 2033</option>
+                                                <option value="2033_9">Сентябрь 2033</option>
+                                                <option value="2033_8">Август 2033</option>
+                                                <option value="2033_7">Июль 2033</option>
+                                                <option value="2033_6">Июнь 2033</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Не актуален (без указания причины)" /><span class="edit-form-span">Не актуален</span></label>
+                            <hr class="edit-form-devider" />
+                            <p class="edit-form-title">Статус проверки</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Черновик" checked="checked" /><span class="edit-form-span">Черновик</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации" /><span class="edit-form-span">На модерации</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Проверен" /><span class="edit-form-span">Проверен</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Обработан" /><span class="edit-form-span">Обработан</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На исправлении" /><span class="edit-form-span">На исправлении</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации (повторной)" /><span class="edit-form-span">На модерации (повторной)</span></label>
+                            <ul class="errors"></ul>
+                            <button class="edit-form-save">Сохранить изменения</button>
+                            <a class="edit-form-edit" target="_blank" href="/cabinet/object/edit/8228">Редактировать лот</a>
+                            <button class="edit-form-black">Скопировать в черновики</button>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="list-objects__main">
+                <div class="list-objects__item city">
+                    Москва
+                </div>
+                <div class="list-objects__item category">
+                    Квартиры в центре Москвы
+                </div>
+                <div class="list-objects__item url">
+                    moscow/flat/center
+                </div>
+                <div class="list-objects__item title">
+                    Title
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item H1">
+                    H1
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item desc">
+                    Descripton
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item text">
+                    Текст
+                    <div class="sort"></div>
+                </div>
+                <div class="list-objects__item slovar">
+                    Словари
+                </div>
+                <div class="list-objects__item fast">
+                    6 (10)
+                </div>
+                <div class="list-objects__item objects">
+                    1500 (2000)
+                </div>
+                <div class="list-objects__item status">
+                    Активен
+                </div>
+                <div class="list-objects__item edit">
+                    <div class="list-objects__menu">
+                        <span class="icon"></span>
+                        <div class="edit-form">
+                            <div class="edit-form-cadPrice">
+                              <div class="edit-form-input">
+                                <input type="text" placeholder="1" />
+                                <label>
+                                    Цена лота
+                                    <span class="form-req">*</span>
+                                </label>
+                              </div>
+                              <div class="edit-form-radios">
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="RUB" /><label>₽</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="USD" checked="checked" /><label>$</label></div>
+                                <div class="edit-form-radio"><input type="radio" name="8228_field_p_cy" value="EUR" /><label>€</label></div>
+                              </div>
+                            </div>
+                            <p class="edit-form-title">Статус лота</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Актуален" />
+                                <span class="edit-form-span">Актуален</span>
+                            </label>
+                            <label class="edit-form-radio">
+                                <input class="edit-form-input" type="radio" name="8228_field_p_status" value="Продан" /><span class="edit-form-span">Продан</span>
+                                <div class="sell">
+                                    <div class="sell-inputs">
+                                        <p class="sell-title">Дата продажи:</p>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">День</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">День</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="sell-input">
+                                            <div class="filter-objects__select">
+                                                <span class="title">Месяц и год</span>
+                                                <select>
+                                                    <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                    <option value="2033_12">Декабрь 2033</option>
+                                                    <option value="2033_11">Ноябрь 2033</option>
+                                                    <option value="2033_10">Октябрь 2033</option>
+                                                    <option value="2033_9">Сентябрь 2033</option>
+                                                    <option value="2033_8">Август 2033</option>
+                                                    <option value="2033_7">Июль 2033</option>
+                                                    <option value="2033_6">Июнь 2033</option>
+                                                    <option value="2033_5">Май 2033</option>
+                                                    <option value="2033_4">Апрель 2033</option>
+                                                    <option value="2033_3">Март 2033</option>
+                                                    <option value="2033_2">Февраль 2033</option>
+                                                    <option value="2033_1">Январь 2033</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sell-cadPrice">
+                                    <div class="sell-input">
+                                        <input type="text" placeholder="1" />
+                                        <label class="active">Цена продажи</label>
+                                    </div>
+                                    <div class="sell-radios">
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="RUB" /><label>₽</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="USD" /><label>$</label></div>
+                                        <div class="sell-radio"><input type="radio" name="8228_field_p_salecurrency" value="EUR" /><label>€</label></div>
+                                    </div>
+                                </div>
+                                <div class="sell-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">Кто продал</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">Кто продал</option>
+                                            <option value="2033_12">Частный брокер</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              </div>
+                            </label>
+                            <label class="edit-form-radio"
+                              ><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Снят с продажи" /><span class="edit-form-span">Снят с продажи</span>
+                              <div class="stop">
+                                <p class="stop-title">Продажа приостановлена до:</p>
+                                <div class="stop-inputs">
+                                  <div class="stop-input">
+                                    <div class="filter-objects__select">
+                                        <span class="title">День</span>
+                                        <select>
+                                            <option value="placeholder" class="placeholder">День</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                  <div class="stop-input">
+                                    <div class="select-wrapper">
+                                        <div class="filter-objects__select">
+                                            <span class="title">Месяц и год</span>
+                                            <select>
+                                                <option value="placeholder" class="placeholder">Месяц и год</option>
+                                                <option value="2033_12">Декабрь 2033</option>
+                                                <option value="2033_11">Ноябрь 2033</option>
+                                                <option value="2033_10">Октябрь 2033</option>
+                                                <option value="2033_9">Сентябрь 2033</option>
+                                                <option value="2033_8">Август 2033</option>
+                                                <option value="2033_7">Июль 2033</option>
+                                                <option value="2033_6">Июнь 2033</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_status" value="Не актуален (без указания причины)" /><span class="edit-form-span">Не актуален</span></label>
+                            <hr class="edit-form-devider" />
+                            <p class="edit-form-title">Статус проверки</p>
+                            <label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Черновик" checked="checked" /><span class="edit-form-span">Черновик</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации" /><span class="edit-form-span">На модерации</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Проверен" /><span class="edit-form-span">Проверен</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="Обработан" /><span class="edit-form-span">Обработан</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На исправлении" /><span class="edit-form-span">На исправлении</span></label
+                            ><label class="edit-form-radio"><input class="edit-form-input" type="radio" name="8228_field_p_statuscheck" value="На модерации (повторной)" /><span class="edit-form-span">На модерации (повторной)</span></label>
+                            <ul class="errors"></ul>
+                            <button class="edit-form-save">Сохранить изменения</button>
+                            <a class="edit-form-edit" target="_blank" href="/cabinet/object/edit/8228">Редактировать лот</a>
+                            <button class="edit-form-black">Скопировать в черновики</button>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="objects__more">
+        Показать больше
+    </div>
+    <div class="objects__pagination">
+        <a href="#" class="pagination-objects__link active">1</a>
+        <a href="#" class="pagination-objects__link">2</a>
+        <a href="#" class="pagination-objects__link">3</a>
+        <a href="#" class="pagination-objects__link">4</a>
+        <a href="#" class="pagination-objects__link">5</a>
+    </div>
+    <script src="./js/jq.js"></script>
+    <script src="./js/jquery.selectric.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
